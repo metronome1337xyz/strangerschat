@@ -1,0 +1,27 @@
+{
+  "name": "strangerschat",
+  "version": "0.0.0",
+  "authors": [
+    "Yousuf <m.yousufalam22@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-material": "~0.11.1",
+    "mdi": "~1.2.65",
+    "angular-ui-router": "~0.2.15",
+    "angular-hamburger-toggle": "~0.2.0",
+    "ngstorage": "~0.3.9"
+  }
+}
