@@ -1,0 +1,36 @@
+
+    <div layout="row" layout-align="center center">
+
+        <div  flex-sm="100" flex-gt-sm="90" flex-gt-md="70" flex-gt-lg="33">
+            <md-card>
+
+                <md-card-content>
+                    <h2 class="md-title">Strangers Chat</h2>
+
+                    <form ng-submit="login(username, password)">
+                        <md-input-container flex>
+                            <label for="testInput">Username</label>
+                            <input type="text" id="testInput" required ng-model="username" autofocus>
+                        </md-input-container>
+
+                        <md-input-container flex>
+                            <label>Password</label>
+                            <input required type="password" ng-model="password">
+
+                        </md-input-container>
+                        <div class="md-actions" layout="row" layout-align="end center">
+                            <md-button class="md-primary md-raised" type="submit" flex-sm="50" flex-gt-sm="50" flex-gt-md="40" flex-gt-lg="33">Login</md-button>
+                            <md-button class="md-primary md-raised" ui-sref="register" flex-sm="50" flex-gt-sm="50" flex-gt-md="40" flex-gt-lg="33">Register</md-button>
+                        </div>
+                    </form>
+
+                </md-card-content>
+
+            </md-card>
+
+        </div>
+
+    </div>
+
+
+
